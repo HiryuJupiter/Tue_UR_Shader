@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
+  m_Name: PixelWater
   m_Shader: {fileID: -6465566751694194690, guid: 3fa15cc2475f5ca4899e049ad79c074e,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
