@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shader.unity
     guid: 039e882978d0f464ca3b3c500d49e8b9
+  - enabled: 1
+    path: Assets/Scenes/LIquidSimulation1.unity
+    guid: 7da8b5893af8b864ba9d37a99ca28f04
   m_configObjects: {}

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline
-  m_Shader: {fileID: -6465566751694194690, guid: 8c9f0c4b37a484d419bdd3a1bb2affcd,
+  m_Name: MagicalWater
+  m_Shader: {fileID: -6465566751694194690, guid: f5148859d4c80514d92231e3c327cde8,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 8400000, guid: 9ebcd98016b67234fbaea6c4f880c3a9, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -37,10 +37,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Boolean_2e04e6154e884be5a1eba768c10d3218: 1
-    - Vector1_1de24676da084331afb3399c766024ea: 0.02
-    - _Thickness: 0.031
-    - _Width: 0.01
+    - _Thickness: 0.2
+    - _TopThickness: -0.01
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 0, a: 1}
+    - Color_8bfbf1034db4471191a1d53bc4f40cf2: {r: 0, g: 0.96470594, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0, g: 1, b: 0.9294119, a: 1}
+    - _Color3: {r: 0, g: 0.65398407, b: 1, a: 1}
+    - _FGDirtColor: {r: 1, g: 0.47467148, b: 0, a: 1}
+    - _HighlightColor: {r: 1, g: 0, b: 0.7951088, a: 1}
+    - _MDDirtColor: {r: 1, g: 0.7287241, b: 0.5518868, a: 1}
+    - _TopColor: {r: 0.16037738, g: 0.15727997, b: 0.14751694, a: 1}
   m_BuildTextureStacks: []

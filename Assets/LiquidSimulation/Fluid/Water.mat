@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fluid 1
-  m_Shader: {fileID: -6465566751694194690, guid: f52e8dfcf783f114398cfa6310dbe155,
+  m_Name: Water
+  m_Shader: {fileID: -6465566751694194690, guid: 3fa15cc2475f5ca4899e049ad79c074e,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -30,7 +30,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 8400000, guid: 7f875eaa1182d074c9b5778bb526134a, type: 2}
+        m_Texture: {fileID: 8400000, guid: 831668a0303ab194f9335529f9849e00, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -56,6 +56,7 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _Blend: 0
+    - _BlurAmount: 0.5
     - _Cull: 2
     - _Cutoff: 0.5
     - _DstBlend: 10
@@ -64,15 +65,19 @@ Material:
     - _SampleGI: 0
     - _SrcBlend: 5
     - _Surface: 1
-    - _Thickness: 0.1
-    - _TopThickness: -0.003
+    - _Thickness: 0.006
+    - _TopThickness: -0.0017
     - _ZWrite: 0
     m_Colors:
+    - Color_8bfbf1034db4471191a1d53bc4f40cf2: {r: 0.8862745, g: 0.36862746, b: 0.12941176,
+        a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.20754719, g: 0.13608047, b: 0.19118348, a: 1}
+    - _Color: {r: 0.1882353, g: 0.3240198, b: 0.78431374, a: 1}
+    - _FGDirtColor: {r: 0.39622638, g: 0.21794197, b: 0.087842636, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _HighlightColor: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TopColor: {r: 1, g: 0.36695006, b: 0, a: 1}
+    - _TopColor: {r: 0.3176471, g: 0.6962907, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6031904427256530910
 MonoBehaviour:
