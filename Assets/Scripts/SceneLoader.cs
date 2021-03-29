@@ -22,9 +22,9 @@ public class SceneLoader : MonoBehaviour
             SceneManager.LoadScene(1);
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Application.Quit();
-        }
+        //if (Input.GetKeyDown(KeyCode.Escape))
+        //{
+        //    Application.Quit();
+        //}
     }
 }
